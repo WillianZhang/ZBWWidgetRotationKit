@@ -1,0 +1,11 @@
+framework module ZBWWidgetRotationKit {
+  umbrella header "ZBWWidgetRotationKit.h"
+
+  export *
+  module * { export * }
+}
+
+module ZBWWidgetRotationKit.Swift {
+    header "ZBWWidgetRotationKit-Swift.h"
+    requires objc
+}
